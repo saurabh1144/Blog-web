@@ -44,7 +44,7 @@ const Create = () => {
                 <option value='micky'>Micky</option>
                 <option value='virat'>Virat</option>
                 <option value='yoshi'>Yoshi</option>
-                <option value='yoshi'>Yaman</option>
+                <option value='yoshi'>Rohit</option>
             </select>
         </div>
         <div >
