@@ -19,14 +19,11 @@ const BlogDetails = () => {
     return ( 
         <div className="blog-details">
         {isPending && <div>Loading...</div>}
-        {isPending && <div>Loading...</div>}
         {error && <div>{error}</div>}
         {data &&
         <div>
             <article>{data.title}</article>
             <p>Author:{data.author}</p>
-            <p>Author:{data.author}</p>
-
             <label>{data.body}</label>
         </div>}
         <div>
