@@ -20,8 +20,6 @@ const BlogDetails = () => {
         <div className="blog-details">
         {isPending && <div>Loading...</div>}
         {error && <div>{error}</div>}
-        {error && <div>{error}</div>}
-        {error && <div>{error}</div>}
         {data &&
         <div>
             <article>{data.title}</article>
