@@ -5,7 +5,7 @@ import useFetch from "./useFetch";
 
 const Home1 = () => {
 
-    const{data:blogs,isPending,error}=useFetch("http://localhost:8000/blogs");
+    const{data:blogs,isPending,error}=useFetch("https://localhost:8000/blogs");
     // const [name,setName]=useState('Anmol');
     // const [name1,setName1]=useState('Momo');
 
